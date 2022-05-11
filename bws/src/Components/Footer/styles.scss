@@ -6,6 +6,14 @@ footer {
   background: #080808;
   padding: 2rem 4rem;
 
+  svg {
+    color: white;
+  }
+
+  a:nth-child(2) {
+    margin-left: 1.5rem;
+  }
+
   .footer-contact {
     a {
       text-decoration: none;

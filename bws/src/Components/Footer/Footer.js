@@ -1,13 +1,29 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTiktok } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 import './styles.scss';
 import './query.scss';
+
+const tiktok = <FontAwesomeIcon icon={faTiktok} className='fa-xl' />
+const insta = <FontAwesomeIcon icon={faInstagram} className='fa-xl' />
 
 const Footer = () => {
   return (
     <footer>
       <div className='media-icons'>
+        <a href='#'>
+          <i>
+            {insta}
+          </i>
+        </a>
 
+        <a href='#'>
+          <i>
+            {tiktok}
+          </i>
+        </a>
       </div>
 
       <div className='footer-contact'>
@@ -18,5 +34,5 @@ const Footer = () => {
     </footer>
   );
 }
- 
+
 export default Footer;
