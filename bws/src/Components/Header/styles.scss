@@ -10,6 +10,17 @@ header {
     width: 650px;
     height: 50px;
     animation: 3s glitch infinite step-end;
+    order: 2;
+  }
+
+  ul {
+    &:nth-child(1) {
+      order: 1;
+    }
+
+    &:nth-child(2) {
+      order: 3;
+    }
   }
 
   .left, .right {

@@ -6,6 +6,8 @@ import './query.scss';
 const Header = () => {
   return (
     <header>
+      <div className='logo'></div>
+
       <ul className='right'>
         <li>
           <a href='#'>
@@ -19,8 +21,6 @@ const Header = () => {
           </a>
         </li>
       </ul>
-
-      <div className='logo'></div>
 
       <ul className='right'>
         <li>

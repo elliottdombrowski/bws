@@ -1,0 +1,22 @@
+@media all and (max-width: 768px) {
+  header {
+    justify-content: space-between;
+    
+    .logo {
+      animation: none;
+      height: 100px;
+      width: 100px;
+      background: url('./shhh.jpeg');
+      background-size: contain;
+      background-position: center;
+    }
+  }
+}
+
+@media all and (max-width: 580px) {
+  header {
+    .left, .right {
+      display: none;
+    }
+  }
+}
