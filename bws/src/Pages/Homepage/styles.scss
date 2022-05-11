@@ -27,5 +27,33 @@
         border-radius: 8px;
       }
     }
+
+    .featured-links {
+      margin-top: 1.5rem;
+
+      ul {
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: unset;
+
+        li {
+          a {
+            display: block;
+            width: 150px;
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Kanit', sans-serif;
+            font-size: 20px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            
+            padding: 1rem;
+            border: 3px solid white;
+          }
+        }
+      }
+    }
   }
 }
