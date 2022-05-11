@@ -1,0 +1,26 @@
+@media all and (max-width: 768px) {
+  .homepage {
+    .featured-block {
+      .control-wrapper {
+        .control-left {
+          left: 40px;
+        }
+
+        .control-right {
+          right: 40px;
+        }
+      }
+
+      .featured-img {
+        width: 400px;
+        height: 400px;
+        margin: 0 auto;
+
+        img {
+          width: 400px;
+          height: 400px;
+        }
+      }
+    }
+  }
+}

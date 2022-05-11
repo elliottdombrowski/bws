@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import AnimatePage from '../../AnimatePage';
 
 import TooFast from '../../Components/TooFast/TooFast';
 import Extraviolence from '../../Components/Extraviolence/Extraviolence';
