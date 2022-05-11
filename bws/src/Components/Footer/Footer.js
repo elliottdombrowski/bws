@@ -12,6 +12,8 @@ const insta = <FontAwesomeIcon icon={faInstagram} className='fa-xl' />
 const Footer = () => {
   return (
     <footer>
+      <img className='shhh-footer' src={require('./shhh.jpeg')} />
+
       <div className='media-icons'>
         <a href='#'>
           <i>
