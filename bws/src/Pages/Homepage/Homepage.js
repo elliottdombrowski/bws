@@ -11,13 +11,11 @@ const controlRight = <FontAwesomeIcon icon={faAngleRight} className='fa-2x' />
 
 const Homepage = () => {
   const [carousel, setCarousel] = useState(false);
-  console.log(carousel);
 
   return (
     <main className='homepage'>
       <section className='featured-block'>
         <div className='control-wrapper'>
-
           <div className='control-left'>
             <i
               onClick={() => setCarousel(prev => !prev)}
@@ -38,7 +36,6 @@ const Homepage = () => {
         <div className='featured-header'></div>
 
         <div className='featured-img'>
-          <img src={require('./too-fast.jpeg')} />
         </div>
 
         <div className='featured-links'>
