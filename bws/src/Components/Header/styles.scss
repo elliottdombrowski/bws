@@ -1,14 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
 header {
   display: flex;
   justify-content: space-around;
-  background: black;
+  background: #121212;
   padding: 2rem;
   
   .logo {
     width: 600px;
     height: 40px;
-    // background: url('./bws-glitch-0.png') no-repeat;
     animation: 3s glitch infinite step-end;
+  }
+
+  .left, .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: unset;
+
+    li:nth-child(1) {
+      margin-right: 2rem;
+    }
+
+    a {
+      text-decoration: none;
+      font-family: 'Kanit', sans-serif;
+      font-size: 20px;
+      letter-spacing: 2px;
+    }
   }
 }
 
