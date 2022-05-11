@@ -1,4 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
 .homepage {
-  background: red;
-  height: calc(100vh - 2rem - 40px);
+  background: #080808;
+
+  .featured-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0;
+    
+    .featured-header {
+      width: 500px;
+      height: 40px;
+      padding: 25px;
+      background: url('./too-fast-header.png') no-repeat;
+      background-size: contain;
+    }
+    
+    .featured-img {
+      width: auto;
+      height: auto;
+      
+      img {
+        width: 500px;
+        height: 500px;
+        border-radius: 8px;
+      }
+    }
+  }
 }

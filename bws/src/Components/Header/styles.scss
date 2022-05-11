@@ -3,7 +3,7 @@
 header {
   display: flex;
   justify-content: space-around;
-  background: #121212;
+  background: #080808;
   padding: 2rem;
   
   .logo {
@@ -27,6 +27,7 @@ header {
       font-family: 'Kanit', sans-serif;
       font-size: 20px;
       letter-spacing: 2px;
+      text-transform: uppercase;
     }
   }
 }
