@@ -30,15 +30,15 @@
         right: 0;
         cursor: pointer;
       }
-    }
-    
-    .featured-header {
-      width: 500px;
-      height: 40px;
-      padding: 25px;
-      background: url('./too-fast-header.png') no-repeat;
-      // background: url('./extraviolence.png') no-repeat;
-      background-size: contain;
+
+      div i svg {
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+          transform: scale(1.2);
+          opacity: .6;
+        }
+      }
     }
     
     .featured-img {
@@ -75,6 +75,12 @@
             
             padding: 1rem;
             border: 3px solid white;
+            transition: 0.2s ease-in-out;
+
+            &:hover {
+              background: white;
+              color: black;
+            }
           }
         }
       }

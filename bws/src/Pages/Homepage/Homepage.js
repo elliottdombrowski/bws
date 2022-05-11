@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 
+import TooFast from '../../Components/TooFast/TooFast';
+import Extraviolence from '../../Components/Extraviolence/Extraviolence';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
 
@@ -33,10 +36,7 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div className='featured-header'></div>
-
-        <div className='featured-img'>
-        </div>
+        {carousel ? <Extraviolence /> : <TooFast />}
 
         <div className='featured-links'>
           <ul>
