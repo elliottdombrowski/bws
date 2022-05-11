@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: #080808;
+  padding: 2rem 4rem;
+
+  .footer-contact {
+    a {
+      text-decoration: none;
+      font-family: 'Kanit', sans-serif;
+      font-size: 20px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+  }
+}
